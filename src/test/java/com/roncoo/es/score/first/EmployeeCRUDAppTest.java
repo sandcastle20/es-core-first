@@ -12,6 +12,13 @@ import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.aggregations.Aggregation;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramInterval;
+import org.elasticsearch.search.aggregations.bucket.histogram.Histogram;
+import org.elasticsearch.search.aggregations.bucket.terms.StringTerms;
+import org.elasticsearch.search.aggregations.bucket.terms.Terms;
+import org.elasticsearch.search.aggregations.metrics.avg.Avg;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.junit.After;
 import org.junit.Before;
@@ -24,6 +31,9 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -73,7 +83,8 @@ public class EmployeeCRUDAppTest {
 //		updateEmployee(client);
 //		deleteEmployee(client);
 //        createDocs(client);
-        complexSearch(client);
+//        complexSearch(client);
+        aggregation(client);
     }
 
 
@@ -226,7 +237,29 @@ public class EmployeeCRUDAppTest {
      * （2）然后在每个country分组内，再按照入职年限进行分组
      * （3）最后计算每个分组内的平均薪资
      */
-    public static void Aggregation(TransportClient client){
+    public static void aggregation(TransportClient client){
+        SearchResponse searchResponse = client.prepareSearch("company")
+                .addAggregation(
+                        AggregationBuilders.terms("group_by_country").field("country")
+                                .subAggregation(AggregationBuilders.dateHistogram("group_by_join_date").field("join_date").dateHistogramInterval(DateHistogramInterval.YEAR)
+                                        .subAggregation(AggregationBuilders.avg("avg_salary").field("salary")))).execute().actionGet();
+
+        Map<String, Aggregation> stringAggregationMap = searchResponse.getAggregations().asMap();
+        StringTerms groupByCountry = (StringTerms) stringAggregationMap.get("group_by_country");
+        Iterator<Terms.Bucket> groupByConutryBucketIterator = groupByCountry.getBuckets().iterator();
+        while(groupByConutryBucketIterator.hasNext()){
+            Terms.Bucket groupByCountryBucket = groupByConutryBucketIterator.next();
+            logger.info("查询可得");
+            logger.info("aggs:group_by_country,key:{},counts:{}",groupByCountryBucket.getKey(),groupByCountryBucket.getDocCount());
+            Histogram groupByJoinDateHistogram = (Histogram)groupByCountryBucket.getAggregations().asMap().get("group_by_join_date");
+            Iterator<Histogram.Bucket> groupByJoinDateHistogramIterator = groupByJoinDateHistogram.getBuckets().iterator();
+            while (groupByJoinDateHistogramIterator.hasNext()){
+                Histogram.Bucket histogramBucket = groupByJoinDateHistogramIterator.next();
+                logger.info("aggs:group_by_join_date,key:{},counts:{}",histogramBucket.getKey(),histogramBucket.getDocCount());
+                Avg avgSalaryAggregation = (Avg)histogramBucket.getAggregations().asMap().get("avg_salary");
+                logger.info("aggs:avg_salary,salary:{}",avgSalaryAggregation.getValue());
+            }
+        }
 
     }
 

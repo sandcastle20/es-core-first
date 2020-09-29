@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7aa6d92-bcad-4c18-9e92-4d049e6a0c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roncoo/es/score/first/EmployeeCRUDApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roncoo/es/score/first/EmployeeCRUDApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/roncoo/es/score/first/EmployeeCRUDAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/roncoo/es/score/first/EmployeeCRUDAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/roncoo/es/score/first/EmployeeCRUDAppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/roncoo/es/score/first/EmployeeCRUDAppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/roncoo/es/score/first/EmployeeCRUDAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="150" column="76" selection-start-line="150" selection-start-column="74" selection-end-line="150" selection-end-column="76" />
+            <state relative-caret-position="294">
+              <caret line="255" column="63" lean-forward="true" selection-start-line="255" selection-start-column="63" selection-end-line="255" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,6 +72,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Aggregation</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -101,10 +102,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="819" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="874" />
     <option name="y" value="39" />
-    <option name="width" value="1113" />
+    <option name="width" value="1058" />
     <option name="height" value="1006" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -175,6 +176,55 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-core-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="es-core-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.elasticsearch:elasticsearch:5.2.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="es-core-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.elasticsearch:elasticsearch:5.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="elasticsearch-5.2.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-core-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.elasticsearch:elasticsearch:5.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="elasticsearch-5.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-core-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.elasticsearch:elasticsearch:5.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="elasticsearch-5.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-core-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.elasticsearch:elasticsearch:5.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="elasticsearch-5.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es-core-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.elasticsearch:elasticsearch:5.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="elasticsearch-5.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="aggregations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,62 +306,62 @@
       <option name="presentableId" value="Default" />
       <updated>1601019644494</updated>
       <workItem from="1601019650470" duration="7853000" />
-      <workItem from="1601170549789" duration="1132000" />
+      <workItem from="1601170549789" duration="6715000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.25 at 17h 40m 06s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 10h 16m 22s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.25 at 17h 42m 00s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 10h 16m 37s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.25 at 17h 45m 31s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 10h 23m 17s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.25 at 17h 47m 22s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 10h 25m 36s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.25 at 17h 48m 23s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 11h 01m 58s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 09h 44m 38s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 11h 04m 07s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 09h 46m 39s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 11h 10m 29s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 09h 47m 08s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 11h 13m 30s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 09h 49m 05s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 11h 19m 49s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 09h 49m 34s.xml">
+    <history-entry file="EmployeeCRUDAppTest_execute - 2020.09.27 at 11h 20m 40s.xml">
       <configuration name="EmployeeCRUDAppTest.execute" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8985000" />
+    <option name="totallyTimeSpent" value="14568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="819" y="39" width="1113" height="1006" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22623575" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.29157895" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.15292841" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.38937092" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.31127983" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.41513762" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.36767897" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -386,6 +436,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'2_ES_JAVA_API_复杂搜素';" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://E:/My_maven_local_repository/repo/org/elasticsearch/elasticsearch/5.2.2/elasticsearch-5.2.2.jar!/org/elasticsearch/search/SearchHits.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,10 +475,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/org.elasticsearch.search.aggregations.Aggregation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.elasticsearch.search.aggregations.Aggregation</OriginalElement>
+          <nodes>
+            <node x="" y="">org.elasticsearch.search.aggregations.Aggregation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="82.5" y="21.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/My_maven_local_repository/repo/org/elasticsearch/elasticsearch/5.2.2/elasticsearch-5.2.2.jar!/org/elasticsearch/search/aggregations/Aggregation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Programming Software/JavaEE/jdk1.8.0_191/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/roncoo/es/score/first/EmployeeCRUDAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="150" column="76" selection-start-line="150" selection-start-column="74" selection-end-line="150" selection-end-column="76" />
+        <state relative-caret-position="294">
+          <caret line="255" column="63" lean-forward="true" selection-start-line="255" selection-start-column="63" selection-end-line="255" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
